@@ -1,0 +1,68 @@
+================================================================================
+v1.2, 09/13/2005
+--------------------------------------------------------------------------------
+- the ICP and DED are now interactive; you can click the ICP buttons and bring
+  up the various DED displays; Mouse-over tips are provided for the fields on
+  the various DED displays; also, the in-game ICP click sounds are used when
+  you click on the ICP panel buttons
+- added larger tip areas to provide general info about various panels; for
+  example, there's an ICP tip area encompassing the whole ICP, in addition to
+  the tip areas for the individual controls
+- added clickable and non-clickable mouse cursors from the sim; non-clickable
+  cursor is now the default cursor for the app; it changes to the clickable
+  cursor when you're over a control which you can interact with in the trainer
+- load progress bar also indicates # resources while loading
+- embedded the Java v1.4.2_09 runtime in the Pit Trainer installation, removing
+  need for the user to install Java and avoiding conflicts with versions of
+  Java which may be on the system (#1277366)
+- added note about known issue with antialiasing to README file and text
+  displayed in the windows installer
+- added tips for chaff & flares power switches and updated tip for JMR switch
+- added idle detent tip (#1273956)
+- updated INS power switch tip text
+- updated Air Source tip text
+- added nuclear consent tip for down-right-right view
+- updated analog clock tip text to include time accelleration info
+- added tips for down-left-left volume controls and UHF knob (#1284261)
+- removed tip for brakes switch which doesn't do anything anyway to avoid
+  confusion (#1277586)
+- updated fuel transfer control tip text to clarify that its the order of ext.
+  tank usage which is being controlled
+- updated AVTR tip, added AVTR display select tip, and added ACMI recording
+  mode tip
+- spelled out IFF in several tip text entries for clarification
+- updated main electric power switch tip text
+- updated ECM jammer indicator light tip text
+- added tip for ECM panel on down-left-left panel
+- updated LE Flaps switch tip text
+- updated down-left-left-left trim panel tip; split into two tip areas, adding
+  a tip for the TRIM/AP DISC switch controlling whether or not the panel there
+  is used
+- added air vent tip text just for fun
+- updated JFS tip text
+- updated DED Inc/Decr button text
+
+================================================================================
+v1.1, 08/28/2005
+--------------------------------------------------------------------------------
+- app and desktop shortcut icon now using one provided by Aeyes (#1275209)
+- updated right kneemap tip text (#1274914)
+- added trim buttons to down-right view flight stick (#1274913)
+- fixed tail hook release and alt gear tips (#1274080)
+- added F-ACK and PFL display tips along with images from the manual (#1274078)
+- added tip for ejection seat (#1274072)
+- OSB 15 tip text in down-down view indicates SWAP (#1273958)
+- added support for view change using the mouse; when the mouse is near the edge
+  the cursor will change to an appropriate arrow and left-clicking will
+  change the view in that direction just like in the sim (#1274342)
+
+================================================================================
+v1.0, 08/25/2005
+--------------------------------------------------------------------------------
+- initial public release
+
+================================================================================
+NOTE: numbers referenced above with the change descriptions are tracker ID #s;
+      see the below link for the web-based tracker:
+         http://sourceforge.net/tracker/?group_id=146783
+================================================================================

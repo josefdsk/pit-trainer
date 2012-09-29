@@ -1,0 +1,6 @@
+#!/usr/bin/bash
+echo -n "username: "
+read -e USER
+scp -r -C * ${USER}@pittrainer.sourceforge.net:/home/groups/p/pi/pittrainer/htdocs
+
+
